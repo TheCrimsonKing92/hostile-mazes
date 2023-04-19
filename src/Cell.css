@@ -1,0 +1,59 @@
+.maze-cell {
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+}
+
+.maze-cell.bottom-wall {
+    border-top: 1px solid blue;
+}
+
+.maze-cell.exit-cell {
+    background-image: url('./Exit.png');
+}
+
+.maze-cell.left-door {
+    border-left: 1px solid brown;
+}
+
+.maze-cell.left-door-open {
+    border-left: 1px solid gray;
+}
+
+.maze-cell.left-open {
+    border-left: none;
+}
+
+.maze-cell.left-wall {
+    border-left: 1px solid blue;
+}
+
+.maze-cell.right-door {
+    border-right: 1px solid brown;
+}
+
+.maze-cell.right-door-open {
+    border-right: 1px solid gray;
+}
+
+.maze-cell.right-open {
+    border-right: none;
+}
+
+.maze-cell.right-wall {
+    border-right: 1px solid blue;
+}
+  
+.maze-cell.shrouded-cell {
+    border: none;
+    background-color: black;
+    background-image: none;
+}
+
+.maze-cell.top-wall {
+    border-top: 1px solid blue;
+}
+
+.maze-cell > div {
+    float: left;
+}

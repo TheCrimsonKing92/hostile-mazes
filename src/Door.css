@@ -1,0 +1,14 @@
+.cell-door {
+    width: 10px;
+    height: 80px;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.cell-door-closed {
+    background-color: teal;
+}
+
+.cell-door-open {
+    background-color: darkblue;
+}
